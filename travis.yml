@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.14.x
+
+script:
+  - script(s) for integrating the code
+  - script(s) for integrating the15
+  go test -v ./ ...
+go buid github.com/noalnick/travis/cmd/hello-world
