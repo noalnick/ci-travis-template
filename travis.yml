@@ -7,4 +7,4 @@ script:
   - script(s) for integrating the code
   - script(s) for integrating the15
   go test -v ./ ...
-go buid github.com/noalnick/travis/cmd/hello-world
+go buid github.com/noalnick/ci-travis-template/cmd/hello-world
